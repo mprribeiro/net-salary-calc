@@ -1,0 +1,41 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.divFull {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  margin: auto;
+  width: 1502px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.discountINSS {
+  height: 100%;
+  background-color: #e67e22;
+  float: left;
+}
+
+.discountIRPF {
+  height: 100%;
+  background-color: #c0392b;
+  float: left;
+}
+
+.netSalary {
+  height: 100%;
+  background-color: #16a085;
+  float: left;
+}
